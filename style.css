@@ -110,7 +110,8 @@ form button {
   border: none;
   color: #fff;
   font-size: 24px;
-  padding: 15px;
+  padding: 13px;
+  margin-top: 10px;
   width: 100%;
 }
 
@@ -159,9 +160,10 @@ footer p {
   .form-row {
     flex-direction: column;
     flex: 1;
+    margin-right: 90px;
   }
   button {
-    flex: 1;
+    flex: .5;
   }
   #about .group {
     flex-direction: row;
@@ -190,5 +192,9 @@ footer p {
   }
   main img{
     size: initial;
+  }
+  form button{
+    margin: auto;
+     
   }
 }
